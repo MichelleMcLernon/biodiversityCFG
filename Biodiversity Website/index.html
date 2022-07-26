@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="bg-img">
+        <div class="container">
+          <div class="topnav">
+            <a href="#biodiversity">Biodiversity Matters</a>
+            <a href="#news">News</a>
+            <a href="#sitemap">Site Map</a>
+            <a href="contact">Contact Us</a>
+          </div>
+          <div>
+            <a href="plants.html">
+            <img height="150px" width="150px" src="Images/plantimg.png" alt="" class="home">
+          </a>
+          </div>
+      <div class="navlinks">
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script  type='text/javascript'>
+        $(document).ready(function(){
+            $(".home").hover(
+                function() {$(this).attr("src","Images/plants.png");},
+                function() {$(this).attr("src","Images/plantimg.png");
+            });
+        });
+        </script>
+           <div>
+            <a href="vertebrates.html">
+            <img height="150px" width="150px" src="Images/vertebrateimg.png" alt="" class="home2">
+           </a>
+          </div>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script  type='text/javascript'>
+        $(document).ready(function(){
+            $(".home2").hover(
+                function() {$(this).attr("src","Images/vertebrates.png");},
+                function() {$(this).attr("src","Images/vertebrateimg.png");
+            });
+        });
+        </script>
+             <div>
+              <a href="invertebrates.html">
+              <img height="150px" width="150px" src="Images/invertebrateimg.png" alt="" class="home3">
+              </a>
+            </div>
+          <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+          <script  type='text/javascript'>
+          $(document).ready(function(){
+              $(".home3").hover(
+                  function() {$(this).attr("src","Images/Invertebrates.png");},
+                  function() {$(this).attr("src","Images/invertebrateimg.png");
+              });
+          });
+          </script>
+          </div>
+          <!-- <div class="navlinks">
+            <a id="plants" href="#"><img src="Images/plantimg.png" width="150px" height="150px"></a>
+            <a id="vertebrates" href="#"><img src="Images/vertebrateimg.png" width="150px" height="150px"></a>
+            <a id="invertebrates" href="#"><img src="Images/invertebrateimg.png" width="150px" height="150px"></a>
+            <span class="stretch"></span>
+        </div> -->
+        </div>
+      </div>
+</body>
+</html>
+
