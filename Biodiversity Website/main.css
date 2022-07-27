@@ -64,6 +64,9 @@
     line-height: 0
 }
 
-h1 {
-  color: red;
+textbox {
+  width: auto;
+  justify-content: center;
+  border-style: double;
+  border-color: aquamarine;
 }
