@@ -321,3 +321,7 @@ a {text-decoration:none;}
 .check{
   color:#f33fb0;
 }
+
+.bootstrapCarousel {
+  max-width: max-content;
+}
