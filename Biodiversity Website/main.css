@@ -81,16 +81,16 @@ textbox {
   padding-right:1.2rem;
 }
 
-body {
+/* body {
   background-image: url("meadow.jpeg");
   min-height: 550px;
   padding:0.6rem;
 
   /* Center and scale the image nicely */
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */ */
 
 
 * 
@@ -330,3 +330,10 @@ a {text-decoration:none;}
   color:#f33fb0;
 }
 
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+  /* Hide captions */
+  .carousel-caption {
+     display: none
+  }
+}
