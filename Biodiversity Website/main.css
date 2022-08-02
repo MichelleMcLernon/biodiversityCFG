@@ -331,8 +331,14 @@ This class makes the topnav look good on small screens (display the links vertic
   .carousel-caption {
      display: none
   }
+  /* rearrange navlinks circles */
+  .navlinks {
+    display: flex;
+    flex-direction: column;
+     }
 }
 
+/* match font to rest of site */ 
 .carousel-caption {
   font-family:'Darker Grotesque', sans-serif;
 }
