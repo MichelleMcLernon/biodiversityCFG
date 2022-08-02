@@ -45,9 +45,9 @@
 /* Navlinks positioning */
 .navlinks {   
     display: flex;
-    /* margin:150px; */
-    margin-left: 150px; 
-    margin-right: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 150px;
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
