@@ -64,36 +64,29 @@
     font-size: 0;
     line-height: 0
 }
-/* 
-textbox {
-  width: auto;
-  justify-content: center;
-  border-style: double;
-  border-color: aquamarine;
-} */
 
-.plants {
+.textbox {
   background-color: #4dccf0;
   font-family:'Darker Grotesque', sans-serif;
   opacity: 0.9;
   border-radius:0.35rem;
   padding-left:1.2rem;
   padding-right:1.2rem;
+  text-align: center;
 }
 
-/* body {
-  background-image: url("meadow.jpeg");
+body {
+  /* background-image: url("meadow.jpeg"); */
   min-height: 550px;
   padding:0.6rem;
-
-  /* Center and scale the image nicely */
-  /* background-position: center;
+ /*Center and scale the image nicely */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-} */ */
+}
 
 
-* 
+*
 {
   margin:0px;
   padding:0px;
@@ -201,7 +194,8 @@ a {text-decoration:none;}
   display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
+Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
@@ -212,7 +206,8 @@ a {text-decoration:none;}
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   
   .navbar.responsive {
@@ -222,7 +217,6 @@ a {text-decoration:none;}
   padding-bottom: 7px;
 
 }
-
 
   .navbar.responsive a.icon {
     position: absolute;
@@ -242,6 +236,8 @@ a {text-decoration:none;}
   }
 }
 
+/* contact form stuff */
+
 .contact-form-wrapper {
   padding: 50px 0;
 }
@@ -254,7 +250,6 @@ a {text-decoration:none;}
   max-width: 500px;
   font-family:'Darker Grotesque', sans-serif; 
 }
-/* font isn't working on nav bar as expected */
 
 .contact-form textarea {
   resize: none;
@@ -336,4 +331,8 @@ a {text-decoration:none;}
   .carousel-caption {
      display: none
   }
+}
+
+.carousel-caption {
+  font-family:'Darker Grotesque', sans-serif;
 }
