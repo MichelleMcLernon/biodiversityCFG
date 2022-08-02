@@ -51,6 +51,7 @@
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
+    opacity: 0.9;
 }
 .navlinks a {
     vertical-align: top;
